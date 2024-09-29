@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private void showDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("My Name");
-        builder.setMessage("Your name here");
+        builder.setMessage("Daekyung Park!");
         builder.setPositiveButton("OK", null);
         builder.show();
     }
